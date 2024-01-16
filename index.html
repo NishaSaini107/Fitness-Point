@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish's Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            font-family: 'Hubballi', cursive;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            background: url(girl-3253532_1280.jpg);
+            /* background-repeat: no-repeat; */
+            
+        }
+
+        .left {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            left: 15px;
+            top: 15px;
+        }
+
+        .mid {
+            /* border: 2px solid red; */
+            width: 650px;
+            margin: 8px auto;
+        }
+
+        .right {
+            /* border: 2px solid purple; */
+            display: inline-block;
+            position: absolute;
+            right: 10px;
+            top: 21px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .navbar li a:hover {
+            color: red;
+        }
+
+        .navbar li a:active {
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 140px;
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .btn {
+            font-family: 'Hubballi', cursive;
+            border: 2px solid rgb(33, 32, 32);
+            border-radius: 10px;
+            background-color: darkgray;
+            cursor: pointer;
+            padding: 5px;
+            margin: 3px;
+        }
+
+        .btn:hover {
+            background-color: gray;
+            color: brown;
+        }
+
+        .container {
+            border: 3px solid white;
+            border-radius: 14px;
+            width: 437px;
+            height: 400px;
+            padding: 31px 16px;
+            margin: 200px 79px;
+            text-align: center;
+
+        }
+
+        .form-group input {
+            border: 2px solid gray;
+            border-radius: 10px;
+            text-align: center;
+            width: 400px;
+            padding: 8px 4px;
+            margin: 3px 8px;
+        }
+
+        .container .btn {
+            width: 200px;
+            margin: 20px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym-7328168_1280.webp" alt="Loading">
+            <div>Ashish's Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Now</button>
+            <button class="btn">Email Now</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Welcome the best gym of Jhunjhunu</h2>
+        <form action="noaction php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Phone No.">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Email ID">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Address">
+            </div>
+            <button class="btn"><b>Submit</b></button>
+
+        </form>
+    </div>
+</body>
+
+</html>
